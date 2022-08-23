@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ee3b8d8-454c-4ef6-ab26-93dcbc8fc766" name="Changes" comment="init" />
+    <list default="true" id="2ee3b8d8-454c-4ef6-ab26-93dcbc8fc766" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/animals/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/animals/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/animals/Goose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/animals/Goose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/animals/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/animals/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/animals/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/animals/Penguin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/animals/Shark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/animals/Shark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/animals/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/animals/Tiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/interfaces/Bitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/interfaces/Bitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/interfaces/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/interfaces/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/interfaces/Swimable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task1/interfaces/Swimable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task2/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework1/task2/MyList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,8 +52,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework" />
+    <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework1.Homework1" />
       <module name="Module2Homework" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -47,7 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework" />
+        <item itemvalue="Application.Homework1" />
       </list>
     </recent_temporary>
   </component>
@@ -67,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661256421374</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1661256431301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661256431301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

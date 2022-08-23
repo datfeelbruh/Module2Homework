@@ -1,8 +1,10 @@
-import task1.Zoo;
-import task1.animals.*;
-import task2.MyList;
+package Homework1;
 
-public class Homework {
+import Homework1.task1.Zoo;
+import Homework1.task1.animals.*;
+import Homework1.task2.MyList;
+
+public class Homework1 {
     public static void main(String[] args) {
         // Task1
         Duck duck = new Duck();

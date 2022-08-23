@@ -1,4 +1,4 @@
-package task2;
+package Homework1.task2;
 
 import java.util.Arrays;
 

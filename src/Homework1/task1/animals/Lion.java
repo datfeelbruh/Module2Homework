@@ -1,6 +1,6 @@
-package task1.animals;
+package Homework1.task1.animals;
 
-import task1.interfaces.Bitable;
+import Homework1.task1.interfaces.Bitable;
 
 public class Lion implements Bitable {
     @Override

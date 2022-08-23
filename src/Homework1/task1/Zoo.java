@@ -1,8 +1,8 @@
-package task1;
+package Homework1.task1;
 
-import task1.interfaces.Bitable;
-import task1.interfaces.Flyable;
-import task1.interfaces.Swimable;
+import Homework1.task1.interfaces.Bitable;
+import Homework1.task1.interfaces.Flyable;
+import Homework1.task1.interfaces.Swimable;
 
 
 public class Zoo <T extends Flyable, E extends Swimable, K extends Bitable> {
