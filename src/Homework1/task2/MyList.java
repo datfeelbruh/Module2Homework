@@ -5,32 +5,29 @@ import java.util.Arrays;
 public class MyList<T>  {
     T[] objects;
     int size;
-    int index;
 
     public MyList() {
         this.objects = (T[]) new Object[3];
-        this.size = 3;
-        this.index = 0;
+        this.size = 0;
     }
 
     public boolean add(T elem) {
-        if (index == size) {
-            T[] newObjects;
-            newObjects = (T[]) new Object[size * 2];
-            System.arraycopy(objects, 0, newObjects, 0, index);
-            this.objects = newObjects;
+        if (size == objects.length) {
+            Object[] newObjects;
+            newObjects = Arrays.copyOf(this.objects, this.objects.length * 2, this.objects.getClass());
+            this.objects = (T[]) newObjects;
         }
-        objects[index] = elem;
-        index++;
+        this.objects[this.size] = elem;
+        this.size++;
         return true;
     }
 
     @Override
     public String toString() {
-        return Arrays.toString(Arrays.copyOfRange(objects, 0, index));
+        return Arrays.toString(Arrays.copyOfRange(this.objects, 0, this.size));
     }
 
     public T get(int index) {
-        return objects[index];
+        return this.objects[index];
     }
 }

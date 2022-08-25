@@ -4,6 +4,7 @@ import Homework1.task1.Zoo;
 import Homework1.task1.animals.*;
 import Homework1.task2.MyList;
 
+
 public class Homework1 {
     public static void main(String[] args) {
         // Task1
@@ -52,17 +53,13 @@ public class Homework1 {
         newTiger.bite();
 
         //Task2
-        MyList<Duck> list = new MyList<>();
-        list.add(new Duck());
-        list.add(new Duck());
-        list.add(new Duck());
+        MyList<String> list = new MyList<>();
+        list.add("s");
+        list.add("s");
+        list.add("s");
         System.out.println(list);
-        list.add(new Duck());
+        list.add("s");
         System.out.println(list);
-        Duck duck1 = list.get(1);
-        boolean b = list.add(new Duck());
-        System.out.println(b);
-        duck1.fly();
 
 
     }
